@@ -1,2 +1,2 @@
 # photoncenter.github.io
-Repository for website of Photon.Center
+Repository for the website of Community Points PHOTON.
