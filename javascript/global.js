@@ -1,5 +1,5 @@
 function paper() {
-	alert("Coming soon...");
+	alert("Coming later...");
 }
 
 const details = document.querySelectorAll("details");
