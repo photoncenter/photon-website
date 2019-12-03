@@ -3,6 +3,6 @@ code="PHOTON"
 issuer="GBUMIO5G77562NFZZVMKMAUQL3CCZOGTGTUP6PVVUS2BM7U2WSPHOTON"
 name="Photon"
 desc="Photon entitles you to Reddit Community Points from the subreddit /r/Stellar, a new tool for creative control, allowing you to be awarded by your contributions and have a voice in making important governance decisions in the community."
-conditions="Users earn Photon for contributing to /r/Stellar through posting, commenting, and moderating. Each week, 2 million Photon will be distributed."
+conditions="Users earn Photon for contributing to /r/Stellar through posting, commenting, and moderating while using Reddit Redesign. Users need a SEP-0007 compatible wallet. Each week, 2 million Photon will be distributed."
 image="https://photon.center/images/photon.png"
 
