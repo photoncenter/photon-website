@@ -6,3 +6,11 @@ desc="Photon entitles you to Reddit Community Points from the subreddit /r/Stell
 conditions="Users earn Photon for contributing to /r/Stellar through posting, commenting, and moderating while using Reddit Redesign. Users need a SEP-0007 compatible wallet. Each week, 2 million Photon will be distributed."
 image="https://photon.center/images/photon.png"
 
+
+# Sample provision of using TOML for providing extra information and removing storage of product information on Reddit Side
+# This allows Subreddit moderators to change pricing of Membership and Banners without doing server side modification on Reddit
+# Sample format is product_id="price of product in community points"
+[[COMMUNITY_POINTS]]
+memstellar="1000" # Membership price on r/stellar in PHOTON, memstellar is unique id
+badge_11="100" # badge_11 is unique id and 100 PHOTON is price
+badge_12="200" # badge_12 is unique id and 200 PHOTON is price
