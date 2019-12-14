@@ -7,10 +7,10 @@ conditions="Users earn Photon for contributing to /r/Stellar through posting, co
 image="https://photon.center/images/photon.png"
 
 
-# Sample provision of using TOML for providing extra information and removing storage of product information on Reddit Side
-# This allows Subreddit moderators to change pricing of Membership and Banners without doing server side modification on Reddit
-# Sample format is product_id="price of product in community points"
+# Sample provision of using TOML for providing extra information to remove the need of server-side storage
+# This allows to change the price of Special Membership or Badges without doing server-side modifications on Reddit
+# Sample format is product_id="price of a product in community points"
 [[COMMUNITY_POINTS]]
-memstellar="1000" # Membership price on r/stellar in PHOTON, memstellar is unique id
-badge_11="100" # badge_11 is unique id and 100 PHOTON is price
-badge_12="200" # badge_12 is unique id and 200 PHOTON is price
+membership="1000" # Price of Special Membership, "membership" is the unique ID and 1000 PHOTON is the price
+badge_11="100" # Price of a Badge, "badge_11" is the unique ID and 100 PHOTON is the price
+badge_12="200" # Price of a Badge, "badge_12" is the unique ID and 200 PHOTON is the price
