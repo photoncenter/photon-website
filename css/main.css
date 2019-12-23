@@ -9,6 +9,7 @@ body {
 	}
 
 h2, h3, h4, h5, h6 {
+	display: block;
 	color: #000;
 	font-size: 3rem;
 	}
@@ -396,8 +397,6 @@ figcaption {
 	color: #000;
 	}
 
-
-
 .s span {
 	display: block;
 	width: 1rem;
@@ -588,7 +587,7 @@ figcaption {
 		z-index: 1;
 		}
 
-	.g .p {
+	.b .p {
 		pointer-events: none;
 		overflow: hidden;
 		position: absolute;
@@ -600,7 +599,7 @@ figcaption {
 		background-color: rgba(87, 110, 231, 0.3);
 		}
 
-	.g .p::before {
+	.b .p::before {
 		pointer-events: none;
 		position: absolute;
 		content: '';
